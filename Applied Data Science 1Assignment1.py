@@ -41,8 +41,7 @@ def plot_bar(df, year):
 # Add plot title and labels
     ax.set_xlabel('Countries')
     ax.set_ylabel('Gross Domestic Product per capita (USD)')
-    ax.set_title(
-        'Gross Domestic Product per capita in European countries in 2021')
+    ax.set_title('Gross Domestic Product per capita in European countries in 2021')
 # Show plot
     plt.show()
 
